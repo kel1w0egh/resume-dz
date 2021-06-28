@@ -1,0 +1,4 @@
+.main-info-flex {
+  display: flex;
+  column-gap: 100px;
+}

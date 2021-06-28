@@ -1,0 +1,6 @@
+.certificates-container {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+}

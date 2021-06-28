@@ -1,0 +1,16 @@
+<div>
+  <h2>Навыки:</h2>
+  <ul>
+    <li *ngFor="let item of skills">{{item}}</li>
+  </ul>
+  <h2>Знания:</h2>
+  <ul>
+    <li *ngFor="let item of knowledge">{{item}}</li>
+  </ul>
+  <h2>Сертификаты:</h2>
+  <ul class="certificates-container">
+    <li *ngFor="let item of certificates">
+      <img src="{{item}}" alt="">
+    </li>
+  </ul>
+</div>
